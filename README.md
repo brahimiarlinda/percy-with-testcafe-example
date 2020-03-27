@@ -15,5 +15,7 @@
 * Create a scenario like the one in this file. Don't forget to import percySnapshot first.
 * At the scripts of your package.json file add this script: "test:percy": `"percy exec -- testcafe chrome ./tests"`
 * Run `$ npm run test:percy`
+### After every build this is how the UI of percy looks like:
+![percy-ui](./percy.png)
 
 
