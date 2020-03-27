@@ -10,8 +10,9 @@
 ### How to use it for your own project:
 * Go to https://percy.io and sign up.
 * Create a new project in the percy UI, go inside and copy the token mentioned at the botton of the page.
-* Initialize your npm-project (npm init) and run the the export command you copped at the step 2.
+* Initialize your npm-project `$ npm init` and run the the export command you copped at the step 2.
 * Install percy: `$ npm install @percy/testcafe`
+* Install TestCafe: `$ npm install testcafe`
 * Create a scenario like the one in this file. Don't forget to import percySnapshot first.
 * At the scripts of your package.json file add this script: "test:percy": `"percy exec -- testcafe chrome ./tests"`
 * Run `$ npm run test:percy`
