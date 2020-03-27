@@ -1,0 +1,19 @@
+{
+  "name": "tc-visual",
+  "version": "1.0.0",
+  "description": "Visual Regression Testing with TestCafe and Percy",
+  "main": "index.js",
+  "scripts": {
+    "test:percy": "percy exec -- testcafe chrome ./tests"
+  },
+  "keywords": [
+    "TestCafe",
+    "Percy"
+  ],
+  "author": "Arlinda Brahimi",
+  "license": "ISC",
+  "dependencies": {
+    "@percy/testcafe": "^0.2.0",
+    "testcafe": "^1.8.3"
+  }
+}
